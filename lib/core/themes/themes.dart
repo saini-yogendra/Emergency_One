@@ -4,6 +4,16 @@ import 'package:flutter/material.dart';
 var lighttheme = ThemeData(
   useMaterial3: true,
   brightness: Brightness.light,
+  appBarTheme: AppBarTheme(
+    backgroundColor: primaryColor,
+    foregroundColor: surfaceColor,
+    centerTitle: true,
+    titleTextStyle: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w500,
+      color: surfaceColor,
+    ),
+  ),
   colorScheme: ColorScheme.fromSeed(
     seedColor: primaryColor,
     brightness: Brightness.light,
@@ -13,6 +23,12 @@ var lighttheme = ThemeData(
     onPrimaryContainer: onPrimaryContainerColor,
     onSurface: onSurfaceColor,
   ),
+
+inputDecorationTheme: InputDecorationTheme(
+  filled: true,
+  fillColor: primaryContainerColor,
+),
+
 
   textTheme: const TextTheme(
     bodySmall: TextStyle(

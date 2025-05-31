@@ -1,0 +1,1 @@
+const double  Page_Padding = 15.0;
