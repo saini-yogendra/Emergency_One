@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845838373805",
+    "project_id": "emergencyone-af60c",
+    "storage_bucket": "emergencyone-af60c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845838373805:android:a1b95416c5a903e9150724",
+        "android_client_info": {
+          "package_name": "com.example.emergencyone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuvssxxwDMoR-C6FO1AWa8uBug9jC6v5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
